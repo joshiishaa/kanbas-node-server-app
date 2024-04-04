@@ -3,6 +3,7 @@
   "start": "node App.js",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "scripts": "^0.1.0"
   }
 }
