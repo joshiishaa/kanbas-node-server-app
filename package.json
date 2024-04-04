@@ -1,9 +1,16 @@
 {
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "type": "module",
   "start": "node App.js",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "react-scripts": "^5.0.1",
     "scripts": "^0.1.0"
   }
 }
