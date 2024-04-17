@@ -9,7 +9,7 @@ import mongoose from "mongoose";
 import UserRoutes from "./Users/routes.js";
 import "dotenv/config";
 const CONNECTION_STRING = process.env.DB_CONNECTION_STRING || 'mongodb://127.0.0.1:27017/kanbas'||
-'mongodb+srv://joshiishaa:Hello!23@cluster0.itacrhl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+'mongodb+srv://joshiishaa:Hello123@cluster0.itacrhl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
 mongoose.connect(CONNECTION_STRING);
 
 
